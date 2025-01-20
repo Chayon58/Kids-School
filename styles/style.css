@@ -26,6 +26,12 @@
   .black{
     color: #111111;
   }
+  .light-blue{
+    color: #64C8FF;
+  }
+  .violet{
+    color: #8700FF;
+  }
 
   /* nav styles */
   .nav{
@@ -83,16 +89,18 @@
     gap: 141px;
   }
 
-.banner-title{
+  .nav, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .banner-title{
     font-weight: 700px;
     font-size: 3.5rem;
     max-width: 640px;
     height: 183px;
 }
-  .nav, .banner{
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+
   .subtitle{
     font-weight: 400px;
     font-size: 1.25rem;
@@ -108,4 +116,75 @@
     color: white;
     background-color: #111111;
     border: none;
+  }
+/* main */
+.main{
+    font-family: quicksand;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 130px;
+}
+  /* Standard Curriculum */
+
+  .main .Curriculum{
+    margin-top: 60px;
+    align-items: center;
+    text-align: center;
+  }
+  .fact-card1{
+    border: 1px solid none;
+    box-shadow: 0px 90px 90px 0px rgba(222, 245, 255, 1) inset;
+    width: 370px;
+    height: 480px;
+    border-radius: 18px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .fact-card2{
+    border: 1px solid none;
+    box-shadow: 0px 90px 90px 0px rgba(255, 244, 220, 1) inset;
+    width: 370px;
+    height: 480px;
+    border-radius: 18px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .fact-card3{
+    border: 1px solid none;
+    box-shadow: 0px 90px 90px 0px rgba(242, 232, 255, 1) inset;
+    width: 370px;
+    height: 480px;
+    border-radius: 18px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .fact-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 100px;
+  }
+  .fact-name{
+    font-weight: 700px;
+    font-size: 1.53rem;
+  }
+  .fact-title{
+    font-weight: 500px;
+    font-size: 0.94rem;
+  }
+  .read-more{
+    font-family: quicksand;
+    font-weight: 700px;
+    font-size: 0.94rem;
+    background-color: white;
+    border: none;
+    margin-top: 33px;
   }
