@@ -23,12 +23,18 @@
   .lavender{
     color: #5D58EF;
   }
+  .black{
+    color: #111111;
+  }
 
   /* nav styles */
   .nav{
     font-family: quicksand;
     justify-content: space-evenly;
     align-items: center;
+    gap: 186px;
+    max-width: 1158px;
+    height: 62px;
   }
 
 
@@ -37,7 +43,7 @@
     align-items: center;
   }
   .logo{
-    width: 62px;
+    max-width: 62px;
     height: 62px;
   }
   .brand{
@@ -50,7 +56,7 @@
     margin-right: 32px;
     font-weight: 500px;
     font-size: 1.25rem;
-    width: 80px;
+    max-width: 80px;
     height: 30px;
   }
 
@@ -65,5 +71,41 @@
     font-weight: 600px;
     font-size: 1.25rem;
     background-color: orange;
+    border: none;
+  }
+  .banner{
+    font-family: quicksand;
+    max-width: 1158px;
+    height: 575px;
+    margin-left: 142px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 141px;
+  }
+
+.banner-title{
+    font-weight: 700px;
+    font-size: 3.5rem;
+    max-width: 640px;
+    height: 183px;
+}
+  .nav, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .subtitle{
+    font-weight: 400px;
+    font-size: 1.25rem;
+    max-width: 640px;
+    height: 50px;
+  }
+  .btn2{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    font-weight: 600px;
+    font-size: 1.25rem;
+    color: white;
+    background-color: #111111;
     border: none;
   }
