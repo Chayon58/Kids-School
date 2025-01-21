@@ -32,6 +32,9 @@
   .violet{
     color: #8700FF;
   }
+  body{
+    background-image: url(bg.png);
+  }
 
   /* nav styles */
   .nav{
@@ -125,12 +128,13 @@
 }
 
 main > section{
-    margin-top: 130px;
+    margin-top: 10px;
 }
   /* Standard Curriculum */
 
   .main .Curriculum{
     margin-top: 60px;
+    margin-bottom: 30px;
     align-items: center;
     text-align: center;
   }
@@ -188,3 +192,112 @@ main > section{
     border: none;
     margin-top: 33px;
   }
+  .main .logo2{
+    max-width: 62px;
+    height: 60px;
+    display: flex;
+    margin-left: 655px;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  /* our stories */
+
+  .Stories{
+    font-family: quicksand;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .big-img{
+    max-width: 542px;
+    height: 630px;
+    background-color: #cd87182e;
+    border: 1px solid;
+    border: none;
+    border-radius: 16PX;
+  }
+
+.story-1{
+  max-width: 540px;
+  height: 337px;
+  border-radius: 10px 10px 0px 0px;
+}
+#btn3{
+  width: 175px;
+  height: 48px;
+  position: absolute;
+  font-weight: 500;
+  font-size: 0.95rem ;
+  border-radius: 48px;
+  margin-top: -30px;
+  margin-left: 28px;
+  border: none;
+  color: white;
+}
+.btn5{
+  background-color: #5D58EF;
+}
+.btn3{
+  background-color: #3CD8E8;
+}
+.btn6{
+  background-color: #95B226;
+}
+.fact-namee{
+  font-size: 1.5rem;
+  font-weight: 700px;
+  width: 402px;
+  height: 70px;
+  margin-top: 61px;
+  margin-left: 38px;
+}
+.fact-title1{
+  font-size: 0.95rem;
+  font-weight: 500px;
+  width: 433px;
+  height: 75px;
+  margin-top: 61px;
+  margin-left: 38px;
+}
+.aside{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 10px;
+ margin-bottom: 19px;
+}
+.story-2{
+  width: 291px;
+  height: 177px;
+  border-radius: 10px 10px 0px 0px;
+}
+.sidebar{
+  background-color: #cd87182e;
+  max-width: 290px;
+  height: 301px;
+  margin-right: 10px;
+  margin-bottom: 19px;
+  border-radius: 16px;
+}
+.fact-name1{
+  max-width: 199px;
+  height: 47px;
+ font-weight: 700px;
+ font-size: 0.95rem;
+ margin-top: 30px;
+ margin-left: 37px;
+}
+.main .Stories{
+  margin-top: 80px;
+}
+.main .btn4{
+  width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    font-weight: 600px;
+    font-size: 1.25rem;
+    color: white;
+    background-color: #111111;
+    border: none;
+margin-top: 80px;
+margin-left: 622px;
+}
