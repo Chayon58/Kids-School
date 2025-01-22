@@ -10,7 +10,6 @@
   .display-flex{
     display: flex;
   }
-  
   .orange{
     color: #FEA301;
   }
@@ -356,4 +355,59 @@ main > section{
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 10px;
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 576px) {
+  .nav{
+    border-bottom: 1px solid coral;
+  }
+  .brand, .nav-item, .btn{
+    visibility: hidden;
+  }
+  .banner{
+    flex-direction: column-reverse;
+  }
+  .banner-title{
+    max-width: 357px;
+    height: 120px;
+    font-weight: 700px;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 0 auto;
+  }
+  .subtitle{
+    font-weight: 500px;
+    font-size: 0.88rem;
+    max-width: 357px;
+    height: 54px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .btn2{
+    width: 131px;
+    height: 42px;
+    margin-top: 30px;
+    margin-left: 113px;
+  }
+  .sec{
+    flex-direction: column;
+  }
+    .main{
+        margin-top: 350px;
+    }
+  .Curriculum{
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+  }
+  .fact-container{
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 90px;
+    gap: 20px;
+  }
+  .div3{
+   visibility: hidden;
+   }
 }
